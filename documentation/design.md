@@ -65,6 +65,7 @@ we can batch the processing and provide output to the user. Once we've done that
 Since all words of a size will fit in memory, we shouldn't come across any memory issues.
 
 The code will look something like this:
+```
 // read file line by line
 // if line is same length then add it to the batch
 // if line is not same length then process batch
@@ -73,3 +74,4 @@ The code will look something like this:
 // - return grouped object
 // output grouped object (using ',' to separate items)
 // repeat for remaining lines
+```
